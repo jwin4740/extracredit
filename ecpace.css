@@ -1,0 +1,67 @@
+*{
+	box-sizing: border-box;
+	
+
+}
+
+body{
+	margin: auto;
+	background-image: url("greypaper.png");
+	background-repeat: repeat;
+}
+
+header{
+	height: 90px;
+	border: solid 2px grey;
+	margin: auto;
+	text-align: center;
+}
+
+.hleft{
+	z-index: 2;
+	position: relative;
+	float: left;
+	height: 75px;
+	width: 75px;
+	margin: 5px;
+}
+
+.hright{
+	z-index: 2;
+	position: relative;
+	float: right;
+	height: 75px;
+	width: 75px;
+	margin: 5px;
+}
+
+h2{
+	
+	margin: 0px;
+}
+
+.totustuus{
+	border: solid 2px black;
+	width: 500px;
+	height: 300px;
+	margin-left: 433px;
+	margin-top: 75px;
+}
+
+div{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.number{
+	width: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+p{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}

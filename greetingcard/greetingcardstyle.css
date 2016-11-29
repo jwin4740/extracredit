@@ -1,0 +1,87 @@
+*{
+	box-sizing: border-box;
+	
+}
+
+html {
+	min-height: 100%;
+	background: linear-gradient(to bottom, #084912, #62c96e);
+
+}
+
+
+.intro{
+	font-size: 60px;
+	color: #daa520;
+	float: left;
+	margin: 0px;
+}
+
+main {
+	clear: both;
+	text-align: center;
+	
+}
+
+#front{
+	position: relative;
+	z-index: 3;
+	font-family: 'Italianno', cursive;
+	
+}
+
+.card{
+	margin-top: 50px;
+	height: 350px;
+	width: 600px;
+	border: solid 1px #daa520;
+}
+
+.email{
+	margin-top: 50px;
+	font-family: 'Italianno', cursive;
+	
+}
+
+
+p, input{
+	display: inline;
+	font-family: 'Italianno', cursive;
+}
+
+p{
+	position: relative;
+	top: 6px;
+}
+
+#action{
+	color: white;
+	border-radius: 4px;
+	margin: 10px;
+	height: 35px;
+	width: 50px;
+	font-size: 20px;
+	border-color: grey;
+	opacity: 0.9;
+	font-family: 'Italianno', cursive;
+}
+
+.send{
+	background-color: orange;
+}
+
+.print{
+	background-color: red;
+}
+
+#back{
+	position: relative;
+	z-index: 2;
+	height: 350px;
+	width: 600px;
+	margin: auto;
+	background-image: url("content.jpg");
+	border: solid 1px #daa520;
+	top: -463px;
+	background-size: 600px 350px;
+	

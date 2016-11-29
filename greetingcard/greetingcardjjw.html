@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet">
+    <link rel="stylesheet" href="greetingcardstyle.css">
+    <script src="greetingcardjjw.js"></script>
+    <!-- <link rel="stylesheet" href="back.css"> -->
+    <title> Greeting Card </title>
+</head>
+
+<body>
+
+<h1 class="intro" style="font-weight: 500;">Create Your Card!!</h1>
+    <main>
+    
+    <button onclick="frontflip()"> Flip to front</button>
+     
+     <button onclick="backflip()"> Flip to back</button>
+     
+        <div id="front">
+            <img class="card" src="christmas.jpg" alt="christmas card cover">
+
+            <div class="email"> 
+            	<strong><p style="font-size: 40px;">Email address:  </p></strong>
+            	<input placeholder="example@gmail.com" style="font-size: 20px; border-radius: 6px; height: 30px; width: 150px;">
+                <button id="action" class="send">Send</button>
+                <button id="action" class="print">Print</button>
+            </div>
+        </div>
+
+        <div id="back">hello</div>
+        
+    </main>
+</body>
+
+</html>
