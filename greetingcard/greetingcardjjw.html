@@ -11,12 +11,20 @@
 
 <body>
 
-<h1 class="intro" style="margin-bottom: 10px; font-family: 'Italianno', cursive;font-weight: 500;">Create Your Card!!</h1>
+<h1 class="intro" style="margin-bottom: 50px; font-family: 'Italianno', cursive;font-weight: 500;">Create Your Card!!</h1>
 
     <main>
-        <button onclick="gettoname()">GivetoName</button>
-        <button onclick="getmessage()">Message</button>
-        <button onclick="getfromname()">GivefromName</button>
+        <div class="leftpane">
+            <h3 id="numbers"> 1) Hover over card to flip the card over </h3>
+            <h3 id="numbers"> 2) On the right, click the button titles 'To', and you will be prompted to type the name of the person you are giving the card to</h3> 
+            <h3 id="numbers"> 3) Repeat step 2 for the 'Message' and 'From' buttons</h3>
+            <h3 id="numbers"> 4) Flip card over to see the final product. If you don't like the content you typed, you can just reclick the button to redo it</h3>  
+        </div>
+        <div class="buttons">
+            <button class="instruct" onclick="gettoname()">    To</button>
+            <button class="instruct" onclick="getmessage()">    Message</button>
+            <button class="instruct" onclick="getfromname()">From</button>   
+        </div>
                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
             <div class="flipper">
                 <div class="front">

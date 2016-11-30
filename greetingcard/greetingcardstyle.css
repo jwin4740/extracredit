@@ -15,6 +15,7 @@ html {
 	color: #daa520;
 	float: left;
 	margin: 0px;
+
 }
 
 main {
@@ -22,6 +23,71 @@ main {
 	text-align: center;
 }
 
+.leftpane{
+	clear: both;
+	position: absolute;
+	top: 75px;
+	left: 25px;
+	height: 500px;
+	width: 330px;
+	
+}
+
+#numbers{
+	font-family: 'Arial';
+	text-align: left; 
+	width: 100%;
+	color: #b38f00;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 40px;
+
+}
+
+.buttons{
+	clear: both;
+	position: absolute;
+	top: 155px;
+	left: 1150px;
+	height: 350px;
+	width: 150px;
+	
+}
+
+.instruct{
+	font-family: 'Arial';
+	text-align: center; 
+	width: 100%;
+	color: grey;
+	font-size: 16px;
+	font-style: italic;
+	padding: 10px;
+	font-weight: 900;
+	margin-bottom: 90px;
+	background-color: #daa520;
+	border: solid 1px #daa520;
+	box-shadow: 2px 2px 2px grey;
+	border-radius: 3px;
+
+}
+
+.instruct:hover{
+	font-family: 'Arial';
+	text-align: center; 
+	width: 100%;
+	color: grey;
+	font-size: 16px;
+	font-style: italic;
+	padding: 10px;
+	font-weight: 900;
+	margin-bottom: 90px;
+	background-color: #ffff66;
+	border: solid 1px #daa520;
+	box-shadow: 2px 2px 2px grey;
+	border-radius: 3px;
+	cursor: pointer;
+
+}
 .email{
 	font-family: 'Italianno', cursive;
 	margin-top: 50px;
@@ -121,6 +187,7 @@ input{
 .flip-container {
 margin-left: 366.5px;
 	perspective: 1000px;
+
 }
 	/* flip the pane when hovered */
 	.flip-container:hover .flipper, .flip-container.hover .flipper {
