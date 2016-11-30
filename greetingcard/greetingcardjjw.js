@@ -25,3 +25,12 @@ var fromname = prompt("Who is this from? ");
 document.getElementById("from").innerHTML = fromname;
 
 }
+
+
+function printPage() {
+    window.print();
+};
+
+function sent() {
+	alert("Your card has been sent! Merry Christmas!!");
+}

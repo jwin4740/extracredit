@@ -106,18 +106,15 @@ main {
 
 #inner{
 	height: 60%;
-	
 	margin-left: 175px;
 	text-align: center;
 	position: relative;
 }
 
 #innerfoot{
-	
 	height: 20%;
 	text-align: right;
 	margin-right: 50px;
-	
 }
 
 .tofrom{
@@ -133,9 +130,11 @@ main {
 	height: 60px;
 }
 
-p, input{
+input{
 	
-	font-family: 'Italianno', cursive;
+	font-size: 24px;
+	font-weight: 700;
+	font-family: 'Italianno';
 }
 
 #message {
@@ -151,6 +150,7 @@ p, input{
   text-align: center; 
 
 }
+
 p{
 	position: relative;
 	top: 6px;
@@ -162,16 +162,19 @@ p{
 }
 
 #action{
-	color: white;
+	color: black;
 	border-radius: 4px;
 	margin: 10px;
 	height: 35px;
 	width: 50px;
-	font-size: 20px;
+	font-size: 14px;
 	border-color: grey;
 	opacity: 0.9;
-	font-family: 'Italianno', cursive;
+	font-weight: 600;
+	font-family: 'Arial', cursive;
 }
+
+
 
 .send{
 	background-color: orange;
@@ -181,6 +184,15 @@ p{
 	background-color: red;
 }
 
+.send:hover{
+	background-color: #ffc966;
+	cursor: pointer;
+}
+
+.print:hover{
+	background-color: #ff6666;
+	cursor: pointer;
+}
 input{
 	text-align: center;
 }
@@ -242,4 +254,13 @@ img{
 	background-image: url("content.jpg");
 	border: solid 1px #daa520;
 	background-size: 600px 350px;
+}
+
+
+@media print{
+	 .no-print, .no-print *
+    {
+        display: none !important;
+    }
+
 }
