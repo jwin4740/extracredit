@@ -28,22 +28,37 @@ main {
 	
 }
 
-.inner{
-	border: solid 2px black;
-	height: 33.33%;
+#innerhead{
+	
+	height: 20%;
+	text-align: left;
+	margin-left: 175px;
+
 }
-input[type="text"]
-{
-    
-    background-color: transparent;
-    border: solid 2px black;
-    outline: none;
-    font-size: 40px;
-   	color: #a9a9a9;
-   	font-weight: 900;
-   	text-align: center;
-   	opacity: 0.9;
-   } 
+
+#inner{
+	height: 60%;
+	
+	margin-left: 175px;
+	text-align: center;
+	position: relative;
+}
+
+#innerfoot{
+	
+	height: 20%;
+	text-align: right;
+	margin-right: 50px;
+	
+}
+
+.tofrom{
+	font-family: 'Arial'; 
+	font-weight: 300; 
+	margin-right: 20px;
+	font-size: 30px; 
+	color: #daa520;"
+}
 
 .people{
 	width: 200px;
@@ -55,10 +70,27 @@ p, input{
 	font-family: 'Italianno', cursive;
 }
 
+#message {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Italianno', cursive;
+  color: #a9a9a9;
+  font-weight: 600;
+  margin-left: 10%;
+  margin-right: 10%; 
+  font-size: 30px;
+  text-align: center; 
+
+}
 p{
 	position: relative;
 	top: 6px;
 	display: inline;
+	font-family: 'Italianno', cursive;
+	 font-size: 50px;
+   	color: #a9a9a9;
+   	font-weight: 900;
 }
 
 #action{
@@ -81,7 +113,9 @@ p{
 	background-color: red;
 }
 
-
+input{
+	text-align: center;
+}
 
 /* entire container, keeps perspective */
 .flip-container {
@@ -132,7 +166,7 @@ img{
 
 
 /* back, initially hidden pane */
-.back {
+#back {
 	transform: rotateY(180deg);
 	height: 350px;
 	width: 600px;
