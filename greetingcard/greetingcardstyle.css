@@ -10,14 +10,6 @@ html {
 }
 
 
-.intro{
-	font-size: 60px;
-	color: #daa520;
-	float: left;
-	margin: 0px;
-
-}
-
 main {
 	clear: both;	
 	text-align: center;
@@ -26,22 +18,32 @@ main {
 .leftpane{
 	clear: both;
 	position: absolute;
-	top: 75px;
-	left: 25px;
-	height: 500px;
-	width: 330px;
-	
+	top: 20px;
+	left: 20px;
+	width: 270px;
+	border: dotted 2px black;
 }
 
-#numbers{
+.numbers{
 	font-family: 'Arial';
 	text-align: left; 
-	width: 100%;
-	color: #b38f00;
-	font-weight: 700;
-	font-size: 16px;
-	margin-bottom: 40px;
+	width: 95%;
+	color: black;
+	font-weight: 750;
+	font-size: 14px;
+	margin-bottom: 20px;
+	margin-left: 2.5%;
+	margin-top: 0px;
+}
 
+#header{
+	font-size: 40px; 
+	color: #daa520; 
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-family: 'Italianno', cursive;
+	font-weight: 600;
+	text-align: center;
 }
 
 .buttons{
@@ -203,7 +205,7 @@ margin-left: 366.5px;
 .flipper {
 	transition: 1.0s;
 	transform-style: preserve-3d;
-	margin-top: 50px;
+	margin-top: 140px;
 	
 	position: relative;
 }

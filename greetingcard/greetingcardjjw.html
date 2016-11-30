@@ -11,15 +11,16 @@
 
 <body>
 
-<h1 class="intro" style="margin-bottom: 50px; font-family: 'Italianno', cursive;font-weight: 500;">Create Your Card!!</h1>
 
-    <main>
-        <div class="leftpane">
-            <h3 id="numbers"> 1) Hover over card to flip the card over </h3>
-            <h3 id="numbers"> 2) On the right, click the button titles 'To', and you will be prompted to type the name of the person you are giving the card to</h3> 
-            <h3 id="numbers"> 3) Repeat step 2 for the 'Message' and 'From' buttons</h3>
-            <h3 id="numbers"> 4) Flip card over to see the final product. If you don't like the content you typed, you can just reclick the button to redo it</h3>  
+ <div class="leftpane">
+            <h1 class="numbers" id="header">Create Your Card!!</h1>
+            <h3 class="numbers"> 1) Hover over card to flip the card over </h3>
+            <h3 class="numbers"> 2) On the right, click the gold button titled 'To', and you will be prompted to give the name of the person card recipient</h3> 
+            <h3 class="numbers"> 3) Repeat step 2 for the 'Message' and 'From' buttons</h3>
+            <h3 class="numbers"> 4) Flip card over to see the final product. If you don't like the content you typed, you can just reclick the button you want to edit</h3>  
         </div>
+    <main>
+
         <div class="buttons">
             <button class="instruct" onclick="gettoname()">    To</button>
             <button class="instruct" onclick="getmessage()">    Message</button>
