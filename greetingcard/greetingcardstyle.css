@@ -28,15 +28,37 @@ main {
 	
 }
 
+.inner{
+	border: solid 2px black;
+	height: 33.33%;
+}
+input[type="text"]
+{
+    
+    background-color: transparent;
+    border: solid 2px black;
+    outline: none;
+    font-size: 40px;
+   	color: #a9a9a9;
+   	font-weight: 900;
+   	text-align: center;
+   	opacity: 0.9;
+   } 
+
+.people{
+	width: 200px;
+	height: 60px;
+}
 
 p, input{
-	display: inline;
+	
 	font-family: 'Italianno', cursive;
 }
 
 p{
 	position: relative;
 	top: 6px;
+	display: inline;
 }
 
 #action{
